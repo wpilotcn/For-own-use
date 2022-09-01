@@ -13,13 +13,6 @@ DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
 DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,ios.bugly.qq.com,REJECT
 DOMAIN-SUFFIX,info.3g.qq.com,REJECT
-#有兔阅读
-DOMAIN,app.zhoudamozi.com,DIRECT
-DOMAIN-SUFFIX,youzibank.com,DIRECT
-DOMAIN-SUFFIX,mituyuedu.com,DIRECT
-DOMAIN,img.allahall.com,DIRECT
-DOMAIN,img.dailmo.com,DIRECT
-DOMAIN,activation.crossutility.com,DIRECT
 #书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,xwuad.com,REJECT
