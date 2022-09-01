@@ -1,5 +1,6 @@
 [Rule]
 #YouTube
+DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN,r1---sn-25ge7ns7.googlevideo.com,REJECT
 DOMAIN,r1---sn-2gb7sn7r.googlevideo.com,REJECT
 DOMAIN,r1---sn-2gb7sn7s.googlevideo.com,REJECT
