@@ -14,8 +14,9 @@ DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,ios.bugly.qq.com,REJECT
 DOMAIN-SUFFIX,info.3g.qq.com,REJECT
 ^http:\/\/log-api\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ _ reject
-
-
+DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com,REJECT
+DOMAIN-SUFFIX,mon.zijieapi.com,REJECT
+DOMAIN-SUFFIX,toblog.ctobsnssdk.com,REJECT
 #书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,xwuad.com,REJECT
