@@ -18,19 +18,22 @@ DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com,REJECT
 DOMAIN-SUFFIX,mon.zijieapi.com,REJECT
 DOMAIN-SUFFIX,zijieapi.com,REJECT
 DOMAIN-SUFFIX, log-api.pangolin-sdk-toutiao-b.com,REJECT
-DOMAIN-SUFFIX, pmmtk.pinduoduo.com,REJECT
-DOMAIN-SUFFIX, otk.pinduoduo.com,REJECT
-DOMAIN-SUFFIX, pds.pinduoduo.com,REJECT
-DOMAIN-SUFFIX, images.pinduoduo.com,REJECT
-DOMAIN-SUFFIX, lpcdn.pinduoduo.com,REJECT
-DOMAIN-SUFFIX, lp.pinduoduo.com,REJECT
-DOMAIN-SUFFIX, pmmtk-a.pinduoduo.com,REJECT
-DOMAIN-SUFFIX, tne.pinduoduo.com,REJECT
-DOMAIN-SUFFIX, at-ipv6.pinduoduo.com,REJECT
-DOMAIN-SUFFIX, app.yangkeduo.com,REJECT
-DOMAIN-SUFFIX, sf3-fe-tos.pglstatp-toutiao.com,REJECT
-DOMAIN-SUFFIX, adim.pinduoduo.com,REJECT
-
+DOMAIN-SUFFIX,pmmtk.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,otk.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,pds.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,images.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,lpcdn.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,lp.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,pmmtk-a.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,tne.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,at-ipv6.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,app.yangkeduo.com,REJECT
+DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,adim.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,safebrowsing.googleapis.com,REJECT
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,mobads.baidu.com,REJECT
+DOMAIN-SUFFIX,mon.zijieapi.com,REJECT
 DOMAIN-SUFFIX,app.yangkeduo.com,REJECT
 DOMAIN-SUFFIX,tne.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,toblog.ctobsnssdk.com,REJECT
