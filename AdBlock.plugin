@@ -35,6 +35,9 @@ DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,mobads.baidu.com,REJECT
 DOMAIN-SUFFIX,mon.zijieapi.com,REJECT
 DOMAIN-SUFFIX,app.yangkeduo.com,REJECT
+DOMAIN-SUFFIX,dp.ctrip.com,REJECT
+DOMAIN-SUFFIX,sdk.e.qq.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,tne.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,toblog.ctobsnssdk.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
