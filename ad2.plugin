@@ -1,5 +1,5 @@
 # Ads in Video apps
-
+[Rule]
 DOMAIN-SUFFIX,a.ckm.iqiyi.com,REJECT
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.iqiyi.com,REJECT
@@ -35,8 +35,7 @@ DOMAIN-SUFFIX,store.iqiyi.com,REJECT
 DOMAIN-SUFFIX,t7z.cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,tracker.sns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,yuedu.iqiyi.com,REJECT
-URL-REGEX,https?:\/\/.+\/videos\/other\/.+
-URL-REGEX,https?:\/\/paopao\w?\.qiyipic\.com,REJECT
+
  
 
 # > Youku & Tudou
