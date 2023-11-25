@@ -30,10 +30,14 @@ DOMAIN-SUFFIX,lpcdn.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,lp.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,pmmtk-a.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,tne.pinduoduo.com,REJECT
+DOMAIN-SUFFIX,pgdt.ugdtimg.com,REJECT
+DOMAIN-SUFFIX,xg.pinduoduo.comREJECT
 DOMAIN-SUFFIX,at-ipv6.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,app.yangkeduo.com,REJECT
 DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,p26-be-pack-sign.pglstatp-toutiao.com,REJECT
 DOMAIN-SUFFIX,p9-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com,REJECT
 DOMAIN-SUFFIX,p3-be-pack-sign.pglstatp-toutiao.com,REJECT
 DOMAIN-SUFFIX,adim.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,safebrowsing.googleapis.com,REJECT
@@ -43,12 +47,11 @@ DOMAIN-SUFFIX,mon.zijieapi.com,REJECT
 DOMAIN-SUFFIX,app.yangkeduo.com,REJECT
 DOMAIN-SUFFIX,dp.ctrip.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
-DOMAIN-SUFFIX,tne.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,toblog.ctobsnssdk.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com,REJECT
-DOMAIN-SUFFIX,gromore.pangolin-sdk-toutiao.com,REJECT
-DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com,REJECT
+DOMAIN-SUFFIX,yenei.oss-cn-shanghai.aliyuncs.com,REJECT
+ DOMAIN-SUFFIX,lf-cdn-tos.bytescm.comREJECT
 #书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,xwuad.com,REJECT
@@ -81,7 +84,6 @@ DOMAIN,adcdn.tencentmusic.com,REJECT
 DOMAIN,adexpo.tencentmusic.com,REJECT
 DOMAIN,adclick.tencentmusic.com,REJECT
 DOMAIN,p.l.qq.com,REJECT
-DOMAIN,sdk.e.qq.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,oth.bls.mdt.qq.com,REJECT
 DOMAIN,oth.str.mdt.qq.com,REJECT
@@ -133,6 +135,8 @@ DOMAIN,sdk.e.qq.com,REJECT
 DOMAIN,mi.gdt.qq.com,REJECT
 DOMAIN,open.e.kuaishou.com,REJECT
 DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao1.com,REJECT
+
 DOMAIN,sdk.open.talk.getui.net,REJECT
 DOMAIN,sdk.open.talk.getui.com,REJECT
 DOMAIN,errlog.umeng.com,REJECT
