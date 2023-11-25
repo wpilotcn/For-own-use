@@ -21,7 +21,7 @@ DOMAIN-SUFFIX,info.3g.qq.com,REJECT
 DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com,REJECT
 DOMAIN-SUFFIX,mon.zijieapi.com,REJECT
 DOMAIN-SUFFIX,zijieapi.com,REJECT
-DOMAIN-SUFFIX, log-api.pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,pmmtk.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,otk.pinduoduo.com,REJECT
 DOMAIN-SUFFIX,pds.pinduoduo.com,REJECT
@@ -46,12 +46,15 @@ DOMAIN-SUFFIX,mobads.baidu.com,REJECT
 DOMAIN-SUFFIX,mon.zijieapi.com,REJECT
 DOMAIN-SUFFIX,app.yangkeduo.com,REJECT
 DOMAIN-SUFFIX,dp.ctrip.com,REJECT
+DOMAIN-SUFFIX,cdn-xddq-cn.hdnd01.com,REJECT
+DOMAIN-SUFFIX,apigameh5.shxnetwork.com,REJECT
+DOMAIN-SUFFIX,clue.oceanengine.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,toblog.ctobsnssdk.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,yenei.oss-cn-shanghai.aliyuncs.com,REJECT
- DOMAIN-SUFFIX,lf-cdn-tos.bytescm.comREJECT
+ DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com,REJECT
 #书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,xwuad.com,REJECT
