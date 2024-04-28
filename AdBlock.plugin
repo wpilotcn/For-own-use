@@ -56,6 +56,17 @@ DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,yenei.oss-cn-shanghai.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com,REJECT
 DOMAIN-SUFFIX,lf1-cdn-tos.bytegoofy.com,REJECT
+OMAIN-SUFFIX,mon.zijieapi.com,REJECT
+DOMAIN-SUFFIX,v3-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,p26-sign.douyinpic.com,REJECT
+DOMAIN-SUFFIX,p9-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,p6-sign.douyinpic.com,REJECT
+DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com,REJECT
+DOMAIN-SUFFIX,gromore.pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,sdk.e.qq.com,REJECT
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com,REJECT
 #书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,xwuad.com,REJECT
