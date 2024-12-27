@@ -1,0 +1,94 @@
+// ==UserScript==
+// @name        三人行学堂视频去弹窗
+// @namespace   CNMDSBFW
+// @version     3.6
+// @description 自动跳过视频学习的“继续学习”弹窗，并绕过心跳检测和部分防作弊机制，播放结束后自动关闭页面，仅对视频有效
+// @author      wpilot
+// @match       *://*.yunxuetang.cn/kng/view/video/*
+// @grant       unsafeWindow
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // 阻止指定函数的执行
+    function blockFunction(object, functionName) {
+        if (object && typeof object[functionName] === 'function') {
+            object[functionName] = function() {
+                console.log(`函数 ${functionName} 被阻止执行`);
+                return;
+            };
+        }
+    }
+
+    function handleVideoPlayback() {
+        const video = document.querySelector('video');
+        if (video) {
+            console.log("找到视频元素");
+
+            // 移除 loop 属性
+            video.loop = false;
+            console.log("移除了视频的 loop 属性");
+
+            // 添加 ended 事件监听器，播放结束后关闭页面
+            video.addEventListener('ended', function() {
+                console.log("视频播放结束，正在关闭页面");
+                window.close(); // 关闭当前页面
+            });
+
+            // 自动播放视频
+            if (video.paused) {
+                video.play().catch(error => {
+                    console.error("自动播放视频失败:", error);
+                    try {
+                        video.dispatchEvent(new Event('play'));
+                        console.log("尝试dispatchEvent play事件")
+                    } catch (e) {
+                         console.error("dispatchEvent play事件失败:", e);
+                    }
+                });
+                console.log("尝试播放视频");
+            }
+
+            // 定期检查播放状态并重新播放
+            setInterval(() => {
+                if (video.paused) {
+                    video.play().catch(error => {
+                        console.error("定期检查播放状态并重新播放失败:", error);
+                         try {
+                            video.dispatchEvent(new Event('play'));
+                            console.log("尝试dispatchEvent play事件")
+                        } catch (e) {
+                             console.error("dispatchEvent play事件失败:", e);
+                        }
+                    });
+                    console.log("定期检查发现视频暂停，尝试重新播放");
+                }
+            }, 5000); // 每 5 秒检查一次
+        } else {
+            console.log("未找到视频元素");
+            const observer = new MutationObserver(mutations => {
+                handleVideoPlayback();
+            });
+            observer.observe(document.body, { childList: true, subtree: true });
+        }
+    }
+
+    window.addEventListener('load', function() {
+        console.log("页面加载完成，开始执行脚本");
+
+        blockFunction(unsafeWindow.commonHelper, 'AppendWarningHtml');
+        blockFunction(unsafeWindow, 'showHeartTip');
+
+        handleVideoPlayback();
+    }, false);
+
+    setInterval(() => {
+        if (typeof unsafeWindow.isCompleted !== 'undefined') {
+            unsafeWindow.isCompleted = 1;
+            console.log("尝试修改 isCompleted 为 1");
+        }
+    }, 1000);
+
+    console.log("脚本初始化完成");
+})();
